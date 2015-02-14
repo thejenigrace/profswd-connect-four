@@ -1,0 +1,81 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+html {
+    background-image: url("blurred%20minimalistic.jpg");
+}
+
+body {
+    text-align: center;
+}
+
+table {
+    margin: auto;
+}
+
+#game_title {
+    background-image: url("play%20on%20connect%20four.jpg");
+}
+
+#game_status {
+    color: aliceblue;
+    font-family: "Monaco";
+    font-size: medium;
+}
+
+#game_board, #game_board td {
+    border: 2px solid aliceblue;
+}
+
+#game_board td {
+    width: 80px;
+    height: 80px;
+    background-color: aliceblue;
+    border-radius: 48px;
+}
+
+#game_board {
+    background-color: black;
+    border-spacing: 8px;
+    border-radius: 15px 15px 15px 15px;
+    padding: 10px;
+}
+
+#game_board .player1 {
+    background-color: lightseagreen;
+}
+
+#game_board .player2 {
+    background-color: slateblue;
+}
+
+#new_game {
+    margin: 20px;
+    color: aliceblue;
+    font-family: "Monaco";
+    font-size: x-large;
+    border-radius: 5px 5px 5px 5px;
+    background-color: deepskyblue;
+    border: 3px solid dodgerblue;
+}
+
+#token {
+    width: 80px;
+    height: 80px;
+    background-color: lightseagreen;
+    border-radius: 48px;
+    margin: 20px;
+}
